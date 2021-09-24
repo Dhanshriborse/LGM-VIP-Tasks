@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app header{
+  background-color:rgb(221, 255, 251);
+}
+.app h2{
+  text-align: center;
+}
+.app header ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:40rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden; 
+}
+.app header ul li button{
+   padding: 10px;
+   background-color: rgb(161, 110, 255);
+    box-shadow: 10px 10px black;
+   font-weight: bold;
+   color: white;
+   border-radius: 30%;
+   font-size: 1.5rem;
+}
+.card-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 2rem;
+     padding: 1rem;
+     background-color: rgb(255, 179, 179);
+}
+.card-container .card-top img{
+  height:43vh;
+  width: 18vw;
+  justify-content: center;
+ border-radius: 32px;
+}
+
+.card-container .card{
+  height:54vh;
+  padding: 1rem;
+  border: 2px solid rgb(255, 0, 0);
+  width: 20vw;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  color: black;
+  transition: 1s transform;
+}
+.card-container .card:hover{
+ transform: scaleX(1.1);
+}
